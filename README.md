@@ -62,24 +62,24 @@ The code given will have something logically incorrect, and your job is to find 
 Example:
 
 ```
-// 0. (DESCRIPTION OF CORRECT BEHAVIOR)
+// 0. (EXAMPLE!)
+// DESCRIPTION:
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2.
+// We check if number is greater than or equal to 2. 
 // -- it is, so we console.log 'yes'
 
-//CODE
+// CODE:
 /*
 let number = 1;
 
-number--;
-// FIX - number-- decrements number, but the instructions ask to increment.
-// Should be number++
+// FIX - number-- decrements number, but the instructions ask to increment. 
+// Should be number++.
+number--; 
 
 if (number >= 2) {
   console.log('yes');
 }
-
 */
 ```
 
