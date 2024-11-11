@@ -33,14 +33,17 @@ For questions 1-3, you will narrate what the code is doing. The code here is cor
 
 Example:
 
-```
-// 0. WRITE YOUR DESCRIPTION HERE
+```js
+// 0. (EXAMPLE!)
+// DESCRIPTION:
 // We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 2 is equal to 2, so
-// we console.log 'yes'.
+// We check if number is greater than or equal to 2. If it is,
+// 'yes' will be console.logged.
+// OUTCOME:
+// 'yes' is what is logged.
 
-//CODE
+// CODE:
 /*
 let number = 1;
 
@@ -49,6 +52,7 @@ number++;
 if (number >= 2) {
   console.log('yes');
 }
+*/
 ```
 
 **Section 2**  
