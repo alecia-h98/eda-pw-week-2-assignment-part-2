@@ -16,6 +16,7 @@
 // OUTCOME:
 // 'yes' is what is logged.
 
+
 // CODE:
 /*
 let number = 1;
@@ -33,15 +34,15 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
-//
+// You assigned the number variable to 1.
+// You then added one more to your original value, meaning number = 2.
+// You then added a conditional statement that says if the value of your number variable is greater than or equeal to 2.
+// You then set up the console log to state yes if this statement is true.
 //
 //
 //
 // OUTCOME:
-//
+// 'Yes' is what is logged.
 
 // CODE:
 /*
@@ -59,12 +60,12 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
+// You had assigned the name variable to equal Dane.
+// You created a conditional statement that if the name variable equals Mary the console.log will run the message: Hi, Mary!
+// You then created an else statement to say "How do you do?" if the first conditional statement was not correct.
 //
 // OUTCOME:
-//
+//'How do you do?' is what will be logged
 
 // CODE:
 /*
@@ -89,12 +90,13 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
-//
+// You declared a variable to be named secret and created another variable named code to equal 123.
+// You then created a conditional statement to say if code equals 123 then the secret variable equals super. The code variable will then be multiplied by 2.
+// You then created an if conditional statement incase the first statment was incorrect.
+// This conditional statement says if the code value is greater than 250 then the secret will be logged as duper.
+// You also assigned a console.log to run the outcome of the conditional statements.
 // OUTCOME:
-//
+// 'Super' and the code value would increase to 246.
 
 // CODE:
 /*
