@@ -91,13 +91,13 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// You set up 3 variables, one where the va
-// 
-// 
-// 
-// 
+// You set up 3 variables, one called isStudent that is true (a booleon variable), one called age and equals 34, and the final one is called zip and equals 55407.
+// You then created a conditional statement that says if isStudent equals true and the zip is greater than 80000 then the console.log will say "You're a student on the West Coast!"
+// If not that answer then it will move to the next conditional statement that says if isStudent is false or the age is less than 30 then the console.log will read "What are your hobbies?"
+// The next conditional statement reads if isStudents is true the console.log will say "Welcome to Prime!"
+// If none of these conditional statements work then the console.log will say "how about the weather?"
 // OUTCOME:
-// 
+// 'Welcome to Prime!' is what will be logged.
 
 // CODE:
 /*
@@ -166,6 +166,9 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+
+// FIX - colorOne should be set to blue not red and vice versa.
+// You also need to add another assignment within the if statement that says colorTwo = 'purple'
 
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
