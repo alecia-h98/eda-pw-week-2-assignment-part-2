@@ -62,11 +62,11 @@ if (name === 'Mary') {
 // DESCRIPTION:
 // You declared a variable to be named secret and created another variable named code to equal 123.
 // You then created a conditional statement to say if code equals 123 then the secret variable equals super. The code variable will then be multiplied by 2.
-// You then created an if conditional statement incase the first statment was incorrect.
-// This conditional statement says if the code value is greater than 250 then the secret will be logged as duper.
-// You also assigned a console.log to run the outcome of the conditional statements.
+// You then created an if conditional statement incase the first statment was false.
+// This conditional statement says if the code value is greater than 250 then the secret variable will be logged as set to duper.
+// You also call console.log to run display the outcome of the conditional statements.
 // OUTCOME:
-// 'Super' and the code value would increase to 246.
+// 'Super' will be the log outcome.
 
 // CODE:
 /*
@@ -170,6 +170,14 @@ if (mix === true) {
 // FIX - colorOne should be set to blue not red and vice versa.
 // You also need to add another assignment within the if statement that says colorTwo = 'purple'
 
+let colorOne = 'blue';
+let colorTwo = 'red';
+
+if (mix === true) {
+    colorOne = 'purple';
+    colorTwo = 'purple';
+}
+
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
 
@@ -189,6 +197,14 @@ if (temp > 39 || time >= 4) {
 }
 */
 
+// FIX - const time should be changed to let time = 4; solely because time is an everchanging variable meaning it isn't always going to be consistant.
+// The conditional statement currently says if temp is higher than 39 OR time is greater than or equal to 4. Replace the pipe symbol (||) with two ampersands (&&).
+
+let time = 4;
+
+if ( temp > 39 && time >= 4) {
+  console.log( 'throw away the food!' );
+}
 // ------------------------------------------------------------ //
 // ------------------------------------------------------------ //
 
@@ -209,3 +225,12 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+//FIX - the console.logs should be switched around.
+// if you want to be precise with the description to the code it should read if(age >= minAge) although they both mean the same so I don't think it matters too much.
+// 
+if(minAge <= age) {
+  console.log( 'enter');
+}
+else {
+  console.log('no entry')
+}
